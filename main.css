@@ -6,6 +6,10 @@
     list-style-type: none;
 }
 
+nav {
+    background-color: white;
+}
+
 body {
     background-color: lightgray;
 }
@@ -35,5 +39,4 @@ img {
 
 .label {
     margin-bottom: 10px;
-    text-align: left;
 }
