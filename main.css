@@ -23,13 +23,13 @@ img {
 
 .parent-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
 
 .container {
     width: auto;
-    border: 1px solid black;
+    border: 1px solid grey;
     background-color: #fff;
     padding: 5px;
     border-radius: 5px;
@@ -48,4 +48,16 @@ button {
     outline: none;
     width: 70px;
     background-color: lightskyblue;
+}
+
+#search {
+    width: 200px;
+    height: 35px;
+    font-size: 1em;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.filter {
+    text-align: center;
 }
